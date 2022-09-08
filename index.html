@@ -4,10 +4,11 @@
     <title> kaitlyn.com </title>
     <style>
         body {
-            background: rgb(125, 198, 205);
-            color: rgb(45, 45, 45);
+            background:#C2B5AB
+            ;
+            color: rgb#9E81A6;
             padding: 10px;
-            font-family: arial;
+            font-family:Papyrus;
         }
         #all-contents {
           max-width: 800px;
@@ -16,15 +17,19 @@
      
         /* navigation menu */
         nav {
-            background: rgb(239, 80, 41);
+            background:#A3BFBA;
            margin: 0 auto;
+           margin-bottom: 20px;
             display: flex;
             padding: 10px;
+            border:solid;
+            color:#604573;
+            
         }
         h1 {
             display: flex;
             align-items: center;
-            color: white;
+            color:#604573;
             flex: 1;
             margin: 0;
         }
@@ -36,18 +41,24 @@
             padding: 0 10px;
         }
         a {
-            text-decoration: none;
-            color: #fff;
+            text-decoration:#604573;
+            color:#604573;
         }
      
         /* main container area beneath menu */
         main {
-            background: rgb(245, 238, 219);
+            background:#A3BFBA;
             display: flex;
+            color:#604573;
+            border:solid;
+            font-family:lobster;
+           
         }
         .sidebar {
             margin-right: 25px;
             padding: 10px;
+            border:dashed;
+            color:#9E81A6;
         }
         .sidebar-img {
             width: 200px;
@@ -57,12 +68,16 @@
             padding: 15px;
         }
         #interests {
-            border: 4px silver ridge;
+            border:dashed 4px #9E81A6;
             padding: 8px;
         }
+        li{
+color:#604573;
+    }
         h2, h3 {
             margin: 0px;
-        }
+
+    
      </style>
     </head>
     
@@ -84,17 +99,17 @@
     
             <main>
            <!-- Sidebar section -->
-    <div>
-    <img src= "https://logos.flamingtext.com/Name-Logos/Kaitlyn-design-girls-name.png">
+    <div class="sidebar">
+    <img class="sidebar-img"src= "https://mail.google.com/mail/u/0?ui=2&ik=592f10190f&attid=0.1&permmsgid=msg-a:r1402948192840081998&th=1831db14a938d795&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_r3lz0N1Bg7TtT_SEcQopStQ7Mz3pm37JWykNRFHxdkck_CgyQiK_wbKgrabgFsoOJSfvqa51cryQwCkzGZ-c-lq4-QQYJWRhKQVI3AZ6cOqUCOL7psVXQslY&disp=emb&realattid=1831db1364e50827d0e1">
     </div>
 
     <!-- Content section -->
-    <div>
+    <div class="content">
         <h2> Kaitlyn </h2>
         <p> Student at Madison High </p>
     </div>
      <!-- Interests section -->
-     <div>
+     <div id="interests">
         <h3>Interests</h3>
         <ul>
             <li>Singing!</li>
